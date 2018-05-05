@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7192A88209E07250087368B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7192A87209E07250087368B /* Game.swift */; };
 		A7F949F0209CE2CE007648AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F949EF209CE2CE007648AD /* AppDelegate.swift */; };
 		A7F949F2209CE2CE007648AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F949F1209CE2CE007648AD /* ViewController.swift */; };
 		A7F949F5209CE2CE007648AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F949F3209CE2CE007648AD /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7192A87209E07250087368B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		A7F949EC209CE2CE007648AD /* ApplePie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplePie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F949EF209CE2CE007648AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7F949F1209CE2CE007648AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				A7F949EF209CE2CE007648AD /* AppDelegate.swift */,
 				A7F949F1209CE2CE007648AD /* ViewController.swift */,
+				A7192A87209E07250087368B /* Game.swift */,
 				A7F949F3209CE2CE007648AD /* Main.storyboard */,
 				A7F949F6209CE2CE007648AD /* Assets.xcassets */,
 				A7F949F8209CE2CE007648AD /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7F949F2209CE2CE007648AD /* ViewController.swift in Sources */,
+				A7192A88209E07250087368B /* Game.swift in Sources */,
 				A7F949F0209CE2CE007648AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ApplePie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
